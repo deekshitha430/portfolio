@@ -36,3 +36,141 @@
     transform: rotate(360deg);
   }
 }
+
+
+:root{
+  --primary-white:#fff;
+  --primary-orange:#f9ab00;
+}
+.logo{
+  width:16.25rem;
+}
+nav a.nav-link{
+  font-weight: 500;
+  letter-spacing: 0.0375px;
+  cursor:pointer;
+}
+.navbar-nav> li> a{
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-white)!important;
+}
+.navbar-brand{
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem !important;
+}
+
+.navbar-nav> li> a.active , .navbar-nav >li> a:focus{
+  border-top: 0.1875rem solid var(--primary-orange);
+
+}
+
+.header-wrapper{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM-zGmohFY6Ft-8yWQFJHYRpXCbmrVulSnFA&usqp=CAU);
+  box-sizing: border-box;
+  height: 500px;
+  filter: blur(1px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.main-info{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.contact-form{
+  padding-top: 5%;
+  box-sizing: border-box;
+  padding-left: 3%;
+  background-color:rgba(0,0,0, 0.4);
+  text-align: center;
+}
+
+.box{
+  text-align: initial;
+  font-family: "roboto-bold" ,sans-serif;
+  font-size: large;
+}
+#name{
+  box-sizing: content-box;
+  padding-left: 2%;
+  margin-bottom: 1.5%;
+  margin-left: 1.5%;
+}
+#email{
+  padding-left: 2%;
+  padding-bottom: 1.5%;
+  margin-bottom: 1.5%;
+  margin-left: 1.5%;
+}
+#message{
+  padding-left: 4.2%;
+  margin-left: 1.5%;
+}
