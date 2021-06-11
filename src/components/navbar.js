@@ -15,16 +15,7 @@ const Navbar=() =>{
         <a className="nav-link" href="header.js">Home <span className="sr-only">(current)</span></a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="">About</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">Services</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">how work</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">Portfolio</a>
+        <a className="nav-link" href="about.js">About</a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="#">Contact</a>
